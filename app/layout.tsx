@@ -1,5 +1,17 @@
 import type { Metadata } from "next";
+import { Roboto_Condensed, Cinzel } from "next/font/google";
 import "./globals.css";
+
+
+const robotoCondensed = Roboto_Condensed({
+  subsets: ["latin", "cyrillic"],
+  variable: "--font-roboto",
+});
+
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  variable: "--font-cinzel",
+});
 
 
 
@@ -21,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk">
-      <body
+      <body className={`${robotoCondensed.variable} ${cinzel.variable}`}
       >
         {children}
       </body>

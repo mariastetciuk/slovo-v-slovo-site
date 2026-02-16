@@ -1,5 +1,9 @@
+@config "../tailwind.config.ts";
 @import "tailwindcss";
 @tailwind utilities;
+
+
+
 
 
 
@@ -7,25 +11,6 @@ body {
   overflow-x: hidden;
 } 
 
-/* @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ededed;
-    --foreground: #0a0a0a;
-  }
-} */
-
-body {
-  /* background: var(--background);
-  color: var(--foreground); */
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .container {
   max-width: 100vw;
@@ -42,4 +27,9 @@ body {
     padding: 120px;
   }
 
+}
+
+.header {
+  box-shadow: 0px 1px 3px 0px rgba(67, 62, 1, 0.2),
+    0px 1px 1px 0px hsla(53, 93%, 44%, 0.823), 0px 2px 1px -1 rgba(229, 180, 5, 0.801);
 }
