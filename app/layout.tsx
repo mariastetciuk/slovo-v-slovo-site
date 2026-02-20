@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk">
-      <body className={`${robotoCondensed.variable} ${cinzel.variable}`}
+      <body className={`${robotoCondensed.variable} ${cinzel.variable} text-black`}
       >
         {children}
       </body>

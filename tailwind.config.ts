@@ -12,6 +12,7 @@ const config: Config = {
         muted: "#6B6B6B",   // вторинний текст
         gold: "#fecd46",    // акцент “золото”
         paper: "#f4f0e2",     // теплий “папір”
+        hover: "#f4d0e2",
     
            // білий
         border: "#E7E2D6",    // тепла лінія/бордер
