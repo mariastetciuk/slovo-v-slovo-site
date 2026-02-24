@@ -16,3 +16,13 @@ export type BooksList = {
   }>
 
 }
+
+export type BookData = {
+  bookSlug: string;
+  title: string;
+  chapters: Record<number, {
+    title: string;
+    youtubeId: string;
+    description?: string;
+  }>;
+};

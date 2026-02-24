@@ -8,7 +8,7 @@ export const books: Array<BooksList> = [
         title: "Матвій",
         slug: "matthew",
       },
-      { title: "Марко", slug: "Марко" },
+      { title: "Марко", slug: "mark" },
       { title: "Лука", slug: "luke" },
       { title: "Іван", slug: "john" },
     ],
