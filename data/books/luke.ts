@@ -2,97 +2,151 @@ import type { BookData } from "@/type/type";
 
 export const luke: BookData = {
   bookSlug: "luke",
-  title: "Євангеліє від Матвія",
+  title: "Євангеліє від Луки",
   chapters: {
     1: {
-      title: "Матвія 1",
-      youtubeId: "ysWTouTh4zM", 
+      title: "Луки 1",
+      youtubeId: "", 
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     2: {
-      title: "Матвія 2",
-      youtubeId: "MAF-FcuqhDg", 
+      title: "Луки 2",
+      youtubeId: "", 
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     3: {
-      title: "Матвія 3",
-      youtubeId: "1FfCTS0lBCs",
+      title: "Луки 3",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     4: {
-      title: "Матвія 4",
-      youtubeId: "V6wW13gZ4Z0",
+      title: "Луки 4",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     5: {
-      title: "Матвія 5",
-      youtubeId: "3gOClIK9q7w",
+      title: "Луки 5",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     6: {
-      title: "Матвія 6",
-      youtubeId: "qznFSFGMNuk",
+      title: "Луки 6",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     7: {
-      title: "Матвія 7",
-      youtubeId: "4Fbc_qxEQ8",
+      title: "Луки 7",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     8: {
-      title: "Матвія 8",
-      youtubeId: "nrypzNcZdzc",
+      title: "Луки 8",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     9: {
-      title: "Матвія 9",
-      youtubeId: "xedMfo6SI7I",
+      title: "Луки 9",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     10: {
-      title: "Матвія 10",
-      youtubeId: "oc-_MJAV2fw",
+      title: "Луки 10",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     11: {
-      title: "Матвія 11",
-      youtubeId: "NsJsUJnfRXw",
+      title: "Луки 11",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     12: {
-      title: "Матвія 12",
-      youtubeId: "MCyTJZh7Qzk",
+      title: "Луки 12",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     13: {
-      title: "Матвія 13",
-      youtubeId: "ylol4bLCRn0",
+      title: "Луки 13",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     14: {
-      title: "Матвія 14",
-      youtubeId: "3UGjGWe4134",
+      title: "Луки 14",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     15: {
-      title: "Матвія 15",
-      youtubeId: "79gxx-fU19c",
+      title: "Луки 15",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
+    16: {
+      title: "Луки 16",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    17: {
+      title: "Луки 17",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    18: {
+      title: "Луки 18",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    19: {
+      title: "Луки 19",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    20: {
+      title: "Луки 20",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    21: {
+      title: "Луки 21",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    22: {
+      title: "Луки 22",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    23: {
+      title: "Луки 23",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+    24: {
+      title: "Луки 24",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    }
   },
 };

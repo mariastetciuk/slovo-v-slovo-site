@@ -2,95 +2,101 @@ import type { BookData } from "@/type/type";
 
 export const mark: BookData = {
   bookSlug: "mark",
-  title: "Євангеліє від Матвія",
+  title: "Євангеліє від Марка",
   chapters: {
     1: {
-      title: "Матвія 1",
-      youtubeId: "ysWTouTh4zM", 
+      title: "Марка 1",
+      youtubeId: "DQ9z4CsG3Rw", 
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     2: {
-      title: "Матвія 2",
-      youtubeId: "MAF-FcuqhDg", 
+      title: "Марка 2",
+      youtubeId: "MWNdvYWByc4", 
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     3: {
-      title: "Матвія 3",
-      youtubeId: "1FfCTS0lBCs",
+      title: "Марка 3",
+      youtubeId: "f_x7NGe5ewI",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     4: {
-      title: "Матвія 4",
-      youtubeId: "V6wW13gZ4Z0",
+      title: "Марка 4",
+      youtubeId: "cGN4TcsFp8o",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     5: {
-      title: "Матвія 5",
-      youtubeId: "3gOClIK9q7w",
+      title: "Марка 5",
+      youtubeId: "NMp2syeIymM",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     6: {
-      title: "Матвія 6",
-      youtubeId: "qznFSFGMNuk",
+      title: "Марка 6",
+      youtubeId: "-JY83ll-HCI",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     7: {
-      title: "Матвія 7",
-      youtubeId: "4Fbc_qxEQ8",
+      title: "Марка 7",
+      youtubeId: "__ocoQf228Y",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     8: {
-      title: "Матвія 8",
-      youtubeId: "nrypzNcZdzc",
+      title: "Марка 8",
+      youtubeId: "1ug4xa4rTM8",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     9: {
-      title: "Матвія 9",
-      youtubeId: "xedMfo6SI7I",
+      title: "Марка 9",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     10: {
-      title: "Матвія 10",
-      youtubeId: "oc-_MJAV2fw",
+      title: "Марка 10",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     11: {
-      title: "Матвія 11",
-      youtubeId: "NsJsUJnfRXw",
+      title: "Марка 11",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     12: {
-      title: "Матвія 12",
-      youtubeId: "MCyTJZh7Qzk",
+      title: "Марка 12",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     13: {
-      title: "Матвія 13",
-      youtubeId: "ylol4bLCRn0",
+      title: "Марка 13",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     14: {
-      title: "Матвія 14",
-      youtubeId: "3UGjGWe4134",
+      title: "Марка 14",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },
     15: {
-      title: "Матвія 15",
-      youtubeId: "79gxx-fU19c",
+      title: "Марка 15",
+      youtubeId: "",
+      description:
+        "Нагірна проповідь. Заповіді Христа про серце й праведність.",
+    },
+     16: {
+      title: "Марка 15",
+      youtubeId: "",
       description:
         "Нагірна проповідь. Заповіді Христа про серце й праведність.",
     },

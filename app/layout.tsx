@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto_Condensed, Cinzel } from "next/font/google";
+import Header from "@/components/Нeader";
 import "./globals.css";
 
 
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="uk">
       <body className={`${robotoCondensed.variable} ${cinzel.variable} text-black`}
       >
+        <Header />
         {children}
       </body>
     </html>
