@@ -36,7 +36,7 @@ export const john: BookData = {
     },
     6: {
       title: "Івана 6",
-      youtubeId: "Івана",
+      youtubeId: "",
       description:
         "Івана",
     },

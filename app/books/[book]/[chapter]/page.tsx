@@ -10,7 +10,6 @@ const ChapterPage = async ({
   params: Promise<{ book: string; chapter: string }>;
 }) => {
   const data = await params;
-  // console.log(book)
 
   const book = getBook(data.book);
   if (!book) return notFound();
@@ -26,13 +25,35 @@ const ChapterPage = async ({
 
   return (
     <div className="container">
-      <h1 className=" mb-8 text-3xl font-semibold">{chapter.title}</h1>
+      <h1 className=" mb-3 text-3xl font-semibold ">{chapter.title}</h1>
       {/* {chapter.description ? (
           <p className="mt-2 text-base opacity-80">{chapter.description}</p>
         ) : null} */}
 
-      <YoutubeEmbed videoId={chapter.youtubeId} title={chapter.title} />
+      <nav className="mb-5 flex items-center justify-between gap-3">
+        {prev ? (
+          <Link
+            href={`/books/${book.bookSlug}/${prev}`}
+            className="rounded-2xl border border-black/10 bg-white px-4 py-3 text-center transition hover:border-black/20 hover:shadow-sm"
+          >
+            ← Попередня глава
+          </Link>
+        ) : (
+          <div />
+        )}
 
+        {next ? (
+          <Link
+            href={`/books/${book.bookSlug}/${next}`}
+            className="rounded-xl border border-black/10 bg-white px-4 py-3 text-center transition hover:border-black/20 hover:shadow-sm"
+          >
+            Наступна глава →
+          </Link>
+        ) : (
+          <div />
+        )}
+      </nav>
+        <YoutubeEmbed videoId={chapter.youtubeId} title={chapter.title} />
       <div className="mt-4 flex flex-wrap gap-3">
         <a
           href={videoUrl}
@@ -50,29 +71,6 @@ const ChapterPage = async ({
           Усі глави
         </Link>
       </div>
-      <nav className="mt-10 flex items-center justify-between gap-3">
-        {prev ? (
-          <Link
-            href={`/books/${book.bookSlug}/${prev}`}
-            className="rounded-2xl border border-black/10 bg-white px-4 py-3 text-center transition hover:border-black/20 hover:shadow-sm"
-          >
-            ← Попередня (Глава {prev})
-          </Link>
-        ) : (
-          <div />
-        )}
-
-        {next ? (
-          <Link
-            href={`/books/${book.bookSlug}/${next}`}
-            className="rounded-xl border border-black/10 bg-white px-4 py-3 text-center transition hover:border-black/20 hover:shadow-sm"
-          >
-            Наступна (Глава {next}) →
-          </Link>
-        ) : (
-          <div />
-        )}
-      </nav>
     </div>
   );
 };

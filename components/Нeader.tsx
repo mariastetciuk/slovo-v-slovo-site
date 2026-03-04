@@ -4,7 +4,7 @@ import BtnOpenMenu from "./BtnOpenMenu";
 
 const Header = () =>{
     return(
-<header className="container  bg-black shadow-amber-400 shadow">
+<header className="container bg-black">
     <div className=" py:[30px] flex justify-between items-center">
     <Link href={'/'} className="">
     <Image src={'/лого.svg'} width={70} height={50} alt="logo"/>
